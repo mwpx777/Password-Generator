@@ -1,17 +1,60 @@
-# Password Generator Starter Code
+# Project Title
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password {DONE}
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+Weekly Challenge #3 12.19.20
+
+Password Generator
+
+
+## Table of Contents
+- [Description](#description)
+- [Website Image](#website-image)
+- [Website Link](#website-link)
+- [Help](#Help)
+- [Authors](#Authors)
+- [Built With](#Built-With)
+- [Version History](#Version-History)
+- [Acknowledgments](#Acknowledgments)
+
+## Description
+
+This is the third weekly challenge assignment.  In this challenge, we are tasked to create a random password generator utilizing user input.
+
+
+## Website Image
+<img src="Password-Generator-Screenshot.png">
+
+## Website Link
+
+("https://mwpx777.github.io/Mark-Peterson-Portfolio/")
+
+## Help
+
+Please direct any issues or problems to mwpx777@gmail.com
+
+## Authors
+
+ Created by Mark Peterson
+
+ MWP Designs
+
+ [MWP Designs Instagram](https://instagram.com/mwp_designs)
+ 
+ [MWP Designs LinkedIn](https://www.linkedin.com/in/mwpdesigns/)
+ 
+ [MWP Designs Portfolio](https://mwpdigitaldesign.wixsite.com/portfolio)
+
+## Built With
+
+  [VS Code](https://code.visualstudio.com/)
+	
+
+## Version History
+
+* 0.1
+    * Initial Release 12.19.20
+
+
+## Acknowledgments
+
+
+
