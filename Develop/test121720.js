@@ -1,8 +1,8 @@
-var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var lowercase = "abcdefghijklmnopqrstuvwxyz";
-var numbers = "0123456789";
-var symbols = "?!@#$%^&*";
-var passwordlength
+let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let lowercase = "abcdefghijklmnopqrstuvwxyz";
+let numbers = "0123456789";
+let symbols = "?!@#$%^&*";
+let passwordlength
 
 //generate password function
 
@@ -14,26 +14,21 @@ var generatePassword = function(){
       return generatePassword();
   };
 
-   passwordUppercase = confirm("Would you like uppercase letters? Click 'OK' for yes, Click 'Cancel' for no.");
+    passwordUppercase = confirm("Would you like uppercase letters? Click 'OK' for yes, Click 'Cancel' for no.");
 
-     alert("Thanks for your response!");
-     
-  passwordLowercase = confirm("Would you like lowercase letters?  Click 'OK' for yes, Click 'Cancel' for no.");
       alert("Thanks for your response!");
       
- passwordNumbers = confirm("Would you like numbers?  Click 'OK' for yes, Click 'Cancel' for no.");
-      alert("Thanks for your response!");
-  
-passwordSymbols = confirm("Would you like symbols?  Click 'OK' for yes, Click 'Cancel' for no.");
-      alert("Thanks for your response!");
-  
-  
+    passwordLowercase = confirm("Would you like lowercase letters?  Click 'OK' for yes, Click 'Cancel' for no.");
+        alert("Thanks for your response!");
+        
+    passwordNumbers = confirm("Would you like numbers?  Click 'OK' for yes, Click 'Cancel' for no.");
+        alert("Thanks for your response!");
+    
+    passwordSymbols = confirm("Would you like symbols?  Click 'OK' for yes, Click 'Cancel' for no.");
+        alert("Thanks for your response!");        
+    }
 
-  //while (!passwordUppercase && !passwordLowercase && passwordNumbers && passwordSymbols){
-      //alert("You must choose at least one variable!")
-     
-  }
-  var passwordNew = '';
+ let passwordNew = '';
 
   if (passwordUppercase === true){
     passwordNew += uppercase;
@@ -50,7 +45,7 @@ passwordSymbols = confirm("Would you like symbols?  Click 'OK' for yes, Click 'C
   }
 
  //password loop
-  var password = "" ;
+  let password = "" ;
 
   for(i=0; i< passwordLength; i++){
    password += passwordNew.charAt(Math.floor(Math.random() * passwordNew.length));
@@ -66,8 +61,8 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  let password = generatePassword();
+  let passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
